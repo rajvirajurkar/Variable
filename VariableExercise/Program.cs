@@ -20,8 +20,8 @@ namespace VariableExercise
             decimal dogHeight = 10.5m;  //ends with m
 
 
-            Console.WriteLine($"My Dog's name is {dogName}. He is {dogAge} years old.");
-            Console.WriteLine($"He's first Inital is {firstInitalOfMyDog}. ");
+            Console.WriteLine($"My Dog's name is {dogName} and his initial is {firstInitalOfMyDog}. " +
+                $"He is {dogAge} years old.");
             Console.WriteLine($"He is hungry {isHungry}.");
             Console.WriteLine($"My dog weight is {myDogWeight} lbs," +
                 $"his height is {dogHeight}");
